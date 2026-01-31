@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from '@/components/ui/label'
-
+import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button"
 
 import {
   Field,
@@ -108,6 +108,7 @@ export function TiltCard1() {
           </h1>
           <p className='text-zinc-700 dark:text-zinc-400'>Kôkaku kidôtai</p>
         </div>
+        <InteractiveHoverButton>Interactive Hover Button</InteractiveHoverButton>
       </div>
     </Tilt>
   );
