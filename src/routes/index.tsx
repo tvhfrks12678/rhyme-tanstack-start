@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from '@/components/ui/label'
 import { createFileRoute } from '@tanstack/react-router'
 // import {
 //   Zap,
@@ -18,6 +19,12 @@ function App() {
     <div>
       <Button>Click me</Button>
       <Checkbox />
+
+      <div className="flex items-center space-x-2">
+        <Checkbox id="terms" />
+        <Label htmlFor="terms">Accept terms and conditions</Label>
+      </div>
+
     </div>
   )
 }
