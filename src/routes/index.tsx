@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { Checkbox } from "@/components/ui/checkbox"
 import { createFileRoute } from '@tanstack/react-router'
 // import {
 //   Zap,
@@ -16,6 +17,7 @@ function App() {
   return (
     <div>
       <Button>Click me</Button>
+      <Checkbox />
     </div>
   )
 }
