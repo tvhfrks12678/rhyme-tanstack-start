@@ -108,6 +108,16 @@ export function TiltCard1() {
           </h1>
           <p className='text-zinc-700 dark:text-zinc-400'>Kôkaku kidôtai</p>
         </div>
+
+          <FieldLabel>
+            <Field orientation="horizontal">
+              <Checkbox id="toggle-checkbox-2" name="toggle-checkbox-2" />
+              <FieldContent>
+                <FieldTitle>Enable notifications</FieldTitle>
+              </FieldContent>
+            </Field>
+          </FieldLabel>
+
         <InteractiveHoverButton>Interactive Hover Button</InteractiveHoverButton>
       </div>
     </Tilt>
