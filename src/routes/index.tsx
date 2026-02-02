@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/field"
 import { createFileRoute } from '@tanstack/react-router'
 import { Tilt } from 'components/motion-primitives/tilt'
+import { AnimatedThemeToggler } from '@/components/ui/animated-theme-toggler'
 // import {
 //   Zap,
 //   Server,
@@ -28,6 +29,7 @@ export const Route = createFileRoute('/')({ component: App })
 function App() {
   return (
     <div>
+      <AnimatedThemeToggler />
       <TiltCard1 />
       <Button>Click me</Button>
       <Checkbox />
